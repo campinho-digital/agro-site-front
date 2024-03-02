@@ -1,0 +1,121 @@
+main {
+  padding: 4rem 0 0 0;
+}
+#id-form {
+  height: auto;
+}
+form {
+  height: 100%;
+  max-width: 85%;
+  margin: 60px auto 60px auto;
+  box-shadow: 4px 4px 10.4px 0px rgba(0, 0, 0, 0.15);
+  background: #f9f9f9;
+  opacity: 2;
+  border-radius: 4px;
+
+  color: var(--colors-background-1);
+}
+
+form div h1 {
+  text-align: start;
+  margin: 20px 10% 40px 10%;
+  color: var(--colors-background-1);
+}
+form div p {
+  text-align: start;
+  margin: 20px 10% 0 10%;
+  color: var(--colors-background-1);
+}
+
+form .label {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: -20px;
+}
+
+form label {
+  color: var(--colors-background-1);
+  margin: 5px 10%;
+  font-weight: bold;
+}
+
+form input {
+  color: var(--colors-background-1);
+  margin: 10px 10%;
+  font-weight: bold;
+  height: 60px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+}
+form textarea {
+  color: var(--colors-background-1);
+  margin: 10px 10%;
+  font-weight: bold;
+  height: 140px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+}
+
+form button {
+  display: block;
+  max-width: 88px;
+  margin: 10px 10%;
+  padding: 28px auto;
+  background: var(--colors-background-1);
+  cursor: pointer;
+}
+@media (max-width: 910px) {
+  form {
+    max-width: 100%;
+  }
+  form div h1 {
+    margin: 20px 5% 10px 5%;
+  }
+  form div p {
+    margin: 20px 5% 10px 5%;
+  }
+  form label {
+    color: var(--colors-background-1);
+    margin: 5px 6%;
+    font-weight: bold;
+  }
+
+  form input {
+    margin: 10px 6%;
+  }
+  form textarea {
+    margin: 10px 6%;
+  }
+
+  form button {
+    margin: 10px 6%;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    letter-spacing: 0.5;
+    font-size: 30px;
+    line-height: 38px;
+  }
+  
+  h3{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36x;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+}

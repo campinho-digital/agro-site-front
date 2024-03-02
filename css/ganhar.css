@@ -1,0 +1,121 @@
+#ganhar-background {
+  background-image: url("../images/back_ganhar.jpg");
+}
+
+#background-dark-ganhar {
+  padding: 6rem 0;
+  margin: 0 auto;
+  width: 100%;
+  color: var(--cor-extra-1);
+  background-color: var(--colors-background-2);
+}
+
+#background-dark-ganhar .container {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+#background-dark-ganhar h2 {
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: bold;
+  margin: 40px 0;
+  color: var(--cor-extra-3);
+}
+#background-dark-ganhar h2::after {
+  content: "";
+  height: 4px;
+  width: 60px;
+  display: block;
+  margin: 10px 0 14px 5px;
+  background-color: var(--cor-extra-3);
+}
+#background-dark-ganhar h3 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+#background-dark-ganhar h4 {
+  font-size: 26px;
+  line-height: 32px;
+  font-weight: bold;
+  margin: 20px 0 40px 0;
+  color: var(--cor-extra-3);
+}
+
+#background-dark-ganhar ul {
+  background-color: #121824;
+}
+#background-dark-ganhar p {
+  font-size: 18px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+#background-dark-ganhar ul li {
+  font-size: 18px;
+  line-height: 22px;
+  margin: 6px 0;
+  font-weight: normal;
+  color: #fff;
+  list-style: none;
+  border: none;
+}
+
+/* background-light-ganhar */
+#background-light-ganhar {
+  padding: 8rem 2%;
+}
+#background-light-ganhar h1 {
+  text-align: center;
+  margin: 20px 0 60px 0;
+}
+#background-light-ganhar div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#background-light-ganhar div img {
+  display: inline;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+/*Ganhar */
+.container_grid_back {
+  background-color: #121824;
+  margin: -40px 0 20px 0;
+  padding-bottom: 60px;
+}
+.container_grid {
+  max-width: 1480px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+@media (max-width: 910px) {
+  h1 {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+
+  #background-dark-ganhar h2 {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    margin: 40px 0;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 36x;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+  }
+}
