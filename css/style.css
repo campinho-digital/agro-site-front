@@ -195,7 +195,7 @@ main section button:hover {
   font-weight: 400;
   letter-spacing: 0.6px;
   text-align: center;
-  padding: 10px 20px 0 20px;
+  padding: 10px 2%;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -211,7 +211,7 @@ main section button:hover {
 
 /*  background-dark-1  */
 .background-dark-1 {
-  padding: 8rem 0;
+  padding: 4rem 0 6rem 0;
   color: var(--cor-extra-1);
   background-color: var(--colors-background-2);
 }
@@ -239,6 +239,8 @@ main section button:hover {
 
 .background-dark-1-left p {
   margin-bottom: 20px;
+  width: 80%;
+  margin-left: 90px;
 }
 
 .background-dark-1-left a {
