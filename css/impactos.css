@@ -115,6 +115,7 @@ background-dark-4
   .background-dark .background-dark-conteudo h1 {
     font-size: 32px;
     line-height: 48px;
+    padding-left: 20px;
   }
   .background-dark .background-dark-conteudo h1::after {
     margin: 10px 0 12px 5px;
