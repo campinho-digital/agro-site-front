@@ -108,6 +108,30 @@ p {
 .background-section .container .background-section-img h1 {
   margin-left: 10px;
   margin-bottom: 10px;
+  color: var(--cor-extra-3);
+}
+
+.background-section .container .background-section-img h2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: var(--cor-extra-3);
+}
+
+.background-section
+  .container
+  .background-section-img
+  .background-section-img-efeito {
+  display: flex;
+  align-items: center;
+}
+.background-section
+  .container
+  .background-section-img
+  .background-section-img-efeito
+  strong {
+  font-size: 32px;
+  margin-left: 18px;
+  color: var(--cor-extra-3);
 }
 
 .background-section .container .background-section-img p {
