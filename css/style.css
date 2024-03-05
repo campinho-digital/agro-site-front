@@ -442,13 +442,15 @@ main section button:hover {
   letter-spacing: 0.5;
   font-size: 36px;
   color: var(--cor-extra-1);
-  margin-bottom: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
-/*
 
+/*
 .background-dark-4 .background-dark-4-div .background-dark-4-div-item ul {
   background-color: var(--colors-background-1);
   color: var(--cor-extra-1);
+  margin-bottom: 40px;
 }
 
 .background-dark-4 .background-dark-4-div .background-dark-4-div-item ul li {
@@ -459,8 +461,8 @@ main section button:hover {
   letter-spacing: 0.5px;
   background-color: var(--colors-background-1);
 }
-
 */
+
 /*background-ag*/
 .background-ag {
   background-image: url("../images/original-2d57a2f68415b3367f793dea47770c29.jpg");

@@ -148,7 +148,8 @@ p {
   .background-section-img-efeito
   strong {
   font-size: 32px;
-  margin-left: 18px;
+  margin-top: -15px;
+  margin-right: 18px;
   color: var(--cor-extra-3);
 }
 
