@@ -430,8 +430,11 @@ main section button:hover {
   align-items: start;
   gap: 20px;
   flex: 1;
-  margin: 6rem;
+  margin: 0rem;
   height: auto;
+}
+.background-dark-4 .background-dark-4-div .background-dark-4-div-item img {
+  margin-top: 40px;
 }
 
 .background-dark-4 .background-dark-4-div .background-dark-4-div-item h2 {
@@ -439,7 +442,9 @@ main section button:hover {
   letter-spacing: 0.5;
   font-size: 36px;
   color: var(--cor-extra-1);
+  margin-bottom: 0;
 }
+/*
 
 .background-dark-4 .background-dark-4-div .background-dark-4-div-item ul {
   background-color: var(--colors-background-1);
@@ -455,6 +460,7 @@ main section button:hover {
   background-color: var(--colors-background-1);
 }
 
+*/
 /*background-ag*/
 .background-ag {
   background-image: url("../images/original-2d57a2f68415b3367f793dea47770c29.jpg");
