@@ -109,6 +109,9 @@ p {
 .background-section-texto {
   line-height: 32px;
 }
+.background-section-texto .titulo{
+  color: var(--cor-extra-3);
+}
 
 .background-section .container .background-section-img {
   display: flex;
@@ -152,7 +155,22 @@ p {
   margin-right: 18px;
   color: var(--cor-extra-3);
 }
-
+.background-section-img-efeito-1 {
+  display: flex;
+  align-items: center;
+}
+.background-section-img-efeito-1 strong {
+  font-size: 32px;
+  margin-top: -15px;
+  margin-right: 18px;
+  color: var(--cor-extra-3);
+}
+.background-section-img-efeito-1 span {
+  margin-left: 10px;
+  margin-top: -10px;
+  font-size: 32px;
+  color: var(--cor-extra-3);
+}
 .background-section .container .background-section-img p {
   margin-left: 40px;
   margin-left: 10px;
