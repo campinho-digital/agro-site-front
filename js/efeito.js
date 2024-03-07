@@ -1,6 +1,18 @@
-// Função para iniciar o contador em h1
-function iniciarContador1() {
-  var contadorElement = document.getElementById("contador1");
+// Função para iniciar os contadores
+function iniciarContadores() {
+  // Contador 1 (até 10)
+  iniciarContador(10, "contador1", 100);
+  // Contador 2 (até 8)
+  iniciarContador(8, "contador2", 150);
+  // Contador 3 (até 700)
+  iniciarContador(700, "contador3", 20);
+  // Contador 4 (até 90)
+  iniciarContador(90, "contador4", 80);
+}
+
+// Função para iniciar um contador específico
+function iniciarContador(limite, id, intervalo) {
+  var contadorElement = document.getElementById(id);
   var contador = 0;
 
   // Definindo a função de incremento
@@ -8,69 +20,12 @@ function iniciarContador1() {
     contadorElement.textContent = contador;
     contador++;
 
-    // Se contador for menor que 700, continue incrementando
-    if (contador <= 10) {
-      setTimeout(incrementar, 10); // Defina o intervalo de atualização aqui
-    }
-  }
-
-  // Iniciar o incremento
-  incrementar();
-}
-
-// Função para iniciar o contador em h2
-function iniciarContador2() {
-  var contadorElement = document.getElementById("contador2");
-  var contador = 0;
-
-  // Definindo a função de incremento
-  function incrementar() {
-    contadorElement.textContent = contador;
-    contador++;
-
-    // Se contador for menor que 700, continue incrementando
-    if (contador <= 8) {
-      setTimeout(incrementar, 10); // Defina o intervalo de atualização aqui
-    }
-  }
-
-  // Iniciar o incremento
-  incrementar();
-}
-
-// Função para iniciar o contador em h2
-function iniciarContador3() {
-  var contadorElement = document.getElementById("contador3");
-  var contador3 = 0;
-
-  // Definindo a função de incremento
-  function incrementar() {
-    contadorElement.textContent = contador3;
-    contador3++;
-
-    // Se contador for menor que 700, continue incrementando
-    if (contador3 <= 700) {
-      setTimeout(incrementar, 8); // Defina o intervalo de atualização aqui
-    }
-  }
-
-  // Iniciar o incremento
-  incrementar();
-}
-
-// Função para iniciar o contador em h2
-function iniciarContador4() {
-  var contadorElement = document.getElementById("contador4");
-  var contador4 = 0;
-
-  // Definindo a função de incremento
-  function incrementar() {
-    contadorElement.textContent = contador4;
-    contador4++;
-
-    // Se contador for menor que 700, continue incrementando
-    if (contador4 <= 90) {
-      setTimeout(incrementar, 8); // Defina o intervalo de atualização aqui
+    // Se contador atingir o limite, reiniciar após 2 segundos
+    if (contador > limite) {
+      contador = 0;
+      setTimeout(incrementar, 4000); // Esperar 2 segundos antes de reiniciar
+    } else {
+      setTimeout(incrementar, intervalo); // Definir o intervalo de atualização aqui
     }
   }
 
@@ -80,8 +35,5 @@ function iniciarContador4() {
 
 // Iniciar os contadores quando a página estiver carregada
 window.onload = function () {
-  iniciarContador1();
-  iniciarContador2();
-  iniciarContador3();
-  iniciarContador4();
+  iniciarContadores();
 };
