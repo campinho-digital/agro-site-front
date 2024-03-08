@@ -120,12 +120,14 @@ p {
   gap: 40px;
 }
 
+/*
 .background-section .container .background-section-img img {
   max-width: 130px;
   max-height: 130px;
   margin-left: -10px;
   margin-right: 20px;
 }
+*/
 
 .background-section .container .background-section-img h1 {
   margin-left: 10px;
@@ -159,6 +161,18 @@ p {
   display: flex;
   flex-direction: column;
   padding-right: 60px;
+  margin: 20px 0;
+}
+
+.background-section-img-efeito img{
+  max-width: 130px;
+  max-height: 130px;
+  margin-left: 0;
+}
+
+background-section-img-efeito-img-1{
+  max-width: 110px;
+  max-height: 110px;
 }
 
 .background-section-img-efeito-div {
