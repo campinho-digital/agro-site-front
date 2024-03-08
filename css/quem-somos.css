@@ -121,12 +121,14 @@ p {
   margin-top: 30px;
 }
 
+/*
 .background-section .container .background-section-img img {
   max-width: 130px;
   max-height: 130px;
   margin-left: -10px;
   margin-right: 20px;
 }
+*/
 
 .background-section .container .background-section-img h1 {
   margin-left: 10px;
@@ -485,6 +487,9 @@ p {
 }
 
 @media (max-width: 780px) {
+  .background-section-img {
+    height: 0px;
+  }
   .background-section .container .background-section-img img {
     max-width: 50px;
     visibility: hidden;
