@@ -647,7 +647,25 @@ main section button:hover {
   max-height: 86px;
   max-width: 320px;
 }
+/*4*/
 
+#empresas .empresas-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#empresas .empresas-4 div {
+  width: auto;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#empresas .container .empresas-4 div img {
+  max-height: 180px;
+  max-width: 420px;
+}
 /***/
 #id-newsletter {
   padding: 4rem 0 6rem 0;
